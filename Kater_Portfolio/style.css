@@ -1,0 +1,364 @@
+div {
+  border: 1px solid rgb(0, 0, 0);
+}
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-weight: 200;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+  background-color: rgb(0, 0, 0);
+}
+header a {
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: x-large;
+}
+header div {
+  align-items: center;
+  justify-content: center;
+}
+header a:hover {
+  color: rgba(255, 136, 0, 0.747);
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BUTTON */
+.button_container {
+  display: flex;
+  justify-items: center;
+  padding-top: 0px;
+}
+.button {
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: grab;
+  font-size: x-large;
+  padding-top: 10px;
+}
+
+/* VIDEO */
+.video-container {
+  display: flex;
+}
+.video {
+  shape-margin: 0px;
+}
+
+/* ABOUT ME */
+.aboutme-container{
+  justify-content: center;
+  color: white;
+  padding-left: 80px;
+  
+}
+.aboutme_titel{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 1.5vw;
+}
+.aboutme_text{
+  text-align: justify;
+  float: left;
+  margin: 50px 50px
+}
+.aboutme_credit{
+  color: white;
+  text-align: right;
+  padding-right: 155px;
+  font-size: 10px;
+}
+.aboutme_text a{
+  color: white;
+  text-decoration: none;
+  color: rgba(255, 136, 0, 0.747);
+}
+.aboutme_text a:hover{
+  color: rgba(255, 136, 0, 0.301);
+}
+
+/* DISKOGRAFIE */
+.diskografie-container{
+  color: white;
+  
+}
+.diskografie_titel{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 1.5vw;
+}
+.diskografie_2019{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2vw;
+  margin-bottom: 100px;
+}
+.diskografie_2020{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2vw;
+}
+.diskografie_2021{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2vw;
+}
+.diskografie_2022{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2vw;
+}
+.diskografie_2023{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+/* SOZIALE MEDIEN */
+.sozialemedien-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  margin-top: 100;
+}
+.sozialemedien_titel{
+color: white;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.sozialemedien_links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.sozialemedien_links a{
+  text-decoration: none;
+  justify-content: center;
+  
+}
+.sozialemedien_links h2:hover {
+  color: rgba(255, 136, 0, 0.747);
+}
+.instagram{
+  display: flex;
+  justify-content: center;
+  }
+.instagram h2{
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.youtube{
+  display: flex;
+  justify-content: center;
+  }
+.youtube h2{
+  color: white;
+  text-align: center;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.spotify{
+  display: flex;
+  justify-content: center;
+  }
+.spotify h2{
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.spotifyplayer{
+  display: flex;
+  justify-content: center;
+  margin: 30px, 0px, 50px, 0px;
+  color: white;
+}
+
+/* GALLERIE */
+
+.gallerie_titel{
+color: white;
+text-align: center;
+margin: 50px 0px 50px 0px;
+}
+.gallerie_firstrow{
+  display: flex;
+  justify-content: space-around;
+}
+.gallerie_download{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.gallerie_download a{
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
+.gallerie_download a:hover{
+  color: rgba(255, 136, 0, 0.747);
+}
+
+/* VIDEOS */
+.video-container{
+color: white;
+justify-content: center;
+}
+.video_arrange{
+  display: flex;
+  justify-content: space-around
+}
+.video_namen{
+  margin-top: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px 0px 30px;
+  margin-bottom: 50px;
+}
+/* AKTUELLES */
+.aktuelles-container{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* COPYRIGHT */
+.bottom {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 700px) 
+{
+  div {
+    border: 1px solid rgb(0, 0, 0);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+  .logo{
+    width: 700px;
+  }
+  .button_container{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+  }
+  .button{
+    width: 700px;
+    font-size: medium;
+  }
+  .video-container {
+    display: none;
+  }
+  .aboutme_titel{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    padding-top: 20px;
+  }
+  .aboutme-container h2{
+    font-size: small;
+    display: inline-block;
+    justify-content: center;
+  }
+  .aboutme-container img {
+    width: 60vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .diskografie-container{
+    width: 700px;
+    list-style-type: none;
+  }
+  .diskografie_titel{
+    font-size: x-large;
+  }
+  .diskografie_2023{
+    font-size: large;
+  }
+  .diskografie_2022{
+    font-size: large;
+  }
+  .diskografie_2021{
+    font-size: large;
+  }
+  .diskografie_2020{
+    font-size: large;
+  }
+  .diskografie_2019{
+    font-size: large;
+  }
+  .spotifyplayer{
+    width: 700px;
+  }
+  .sozialemedien-container{
+    width: 700px;
+  }
+  .sozialemedien_links{
+    width: 700px;
+  }
+  .gallerie-container{
+    width: 700px;
+  }
+  .gallerie_titel{
+    width: 700px;
+  }
+  .gallerie_firstrow{
+    flex-wrap: wrap;
+  }
+  .gallerie_firstrow img{
+    padding: 10px 0px 10px 0px;
+  }
+  .gallerie_download{
+    width: 700px;
+  }
+  .video-container{
+    width: 700px;
+  }
+  .video_arrange{
+    flex-wrap: wrap;
+    width: 700px;
+  }
+   .video_namen{
+    width: 700px;
+    display: none;
+  }
+  .aktuelles-container{
+    width: 700px;
+  }
+  .bottom-container{
+    width: 700px;
+  }
+}

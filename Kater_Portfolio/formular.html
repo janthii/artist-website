@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookinganfragen</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" >
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="formular.css">
+</head>
+<body>
+  <div class="kontaktformular">
+    
+    <h1>Bookinganfragen</h1>
+
+    <form id="kontaktform" action="formular.php" method="post" class="pure-form pure-form-aligned">
+        <fieldset>
+            <div class="pure-control-group">
+                <label for="name">Name</label>
+                <input id="name" name="name" required size="40" placeholder="Name">
+            </div>
+            <div class="pure-control-group">
+                <label for="email">E-Mail</label>
+                <input id="email" name="email" type="email" required size="40" placeholder="E-Mail">
+            </div>
+            <div class="pure-control-group">
+                <label for="nachricht">Nachricht</label>
+                <textarea id="nachricht" name="nachricht" required cols="39" rows="10" placeholder="Nachricht"></textarea>
+            </div>
+            <div style="clear:both;"></div> 
+            <div class="pure-control-group">
+                <label for="submit"></label>
+                <button id="submit" name="submit" type="submit" class="pure-button pure-button-primary" onsubmit="validateForm()">Absenden</button>
+                <label for="home"></label>
+                
+            </div>
+            <div class="return">
+              <a href="/index.html">
+              <button id="home" name="home" type="button" class="pure-button pure-button-primary">Home</button>
+              </a>
+            </div>
+        </fieldset>  
+    </form>
+
+</div>
+</body>
+</html>
+
+
+
